@@ -55,7 +55,7 @@
   font-weight: 400;
   line-height: 1.11;
   margin-top: 10px;
-  color: #FFFFFF;
+  color: inherit;
   text-decoration: none;
   text-align: right;
 
@@ -67,4 +67,41 @@
 
 .header__lang-link_active {
   border-bottom: 2px solid #FFFFFF;
+}
+
+.lead {
+
+}
+
+.lead__title {
+  margin: 0 16px 16px;
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 900;
+  text-align: center;
+
+}
+
+.lead__subtitle {
+  margin: 0 16px 40px;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 400;
+  text-align: center;
+}
+
+.lead__image {
+  display: block;
+  width: 100%;
+
+}
+
+.lead__caption {
+  margin: 8px 0 0 16px;
+  font-size: 10px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+
 }

@@ -22,9 +22,9 @@
   font-weight: 900;
 }
 
-/* body {
+body {
   width: 320px;
-} */
+}
 
 
 
@@ -70,7 +70,8 @@
 }
 
 .lead {
-
+  box-sizing: border-box;
+  padding-bottom: 64px;
 }
 
 .lead__title {
@@ -104,4 +105,35 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
 
+}
+
+.intro {
+  box-sizing: border-box;
+  padding-bottom: 64px;
+}
+
+.intro__title {
+  margin: 0 16px 40px;
+  font-size: 32px;
+  line-height: 1.09;
+  font-weight: 900;
+
+}
+
+.intro__text {
+  margin: 0 16px 32px;
+  font-size: 16px;
+  line-height: 1.63;
+  font-weight: 400;
+
+}
+
+.intro__list {
+  padding: 0;
+  margin: 0 16px 0;
+  list-style: none;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 700;
+  font-style: normal;
 }

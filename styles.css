@@ -22,13 +22,6 @@
   font-weight: 900;
 }
 
-.place__paragraph p {
-  margin: 0 0 25px;
-}
-
-.place__paragraph p:last-of-type {
-  margin-bottom: 0;
-}
 
 body {
   width: 768px;
@@ -116,7 +109,7 @@ body {
 
 .intro {
   box-sizing: border-box;
-  padding-bottom: 0 16px 64px;
+  padding: 0 16px 64px;
 }
 
 .intro__title {
@@ -210,11 +203,21 @@ body {
 }
 
 .place__paragraph {
-  margin: 0 16px 25px;
+  margin: 0 16px 0;
   font-size: 16px;
   line-height: 1.625;
   font-weight: 400;
   vertical-align: top;
+
+
+}
+
+.place__paragraph p {
+  margin: 0 0 25px;
+}
+
+.place__paragraph p:last-of-type {
+  margin-bottom: 0;
 }
 
 /* .place__paragraph:last-of-type {
@@ -225,32 +228,27 @@ body {
   /* margin: 0 auto;  Для 1280*/
   background-image: url(images/cover-trains.jpg);
   background-size: cover;
-  width: 100%;
+  /* width: 100%; */
   /* max-width: 1184px; */
   /* height: 62.5vw; */
-  height: 200px;
+  height: 480px;
   /* max-height: 740px; */
-  margin-bottom: 64px;
+
 }
 
 .cover__overlay {
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 16px;
   text-decoration: none;
-  width: 100%;
-  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
   background-color: rgba(42, 44, 47, .3);
 }
 
-.cover__overlay:hover {
-  background-color: rgba(42, 44, 47, .8);
-}
 
 .cover__title {
-  /* margin: 0 auto; для десктопа и дальше НЕТ! */
   margin: 0 16px;
   color: #FFFFFF;
   font-size: 32px;
@@ -263,7 +261,6 @@ body {
 }
 
 .cover__subtitle {
-  /* margin: 0 auto; для десктопа и дальше НЕТ!*/
   margin: 0 16px;
   color: #FFFFFF;
   font-size: 14px;
@@ -276,7 +273,7 @@ body {
 .footer {
   display: flex;
   flex-direction: column;
-  padding-left: 16px;
+  padding: 64px 0 0 16px;
 
 }
 
@@ -293,10 +290,6 @@ body {
 
 .footer__link:last-of-type {
   margin-bottom: 48px;
-}
-
-.footer__link:hover {
-  opacity: 80%;
 }
 
 .footer__copyright {
@@ -418,12 +411,60 @@ body {
 
   .place__paragraph {
     margin: 0;
-    font-size: 16px;
-    line-height: 1.625;
-    font-weight: 400;
-    vertical-align: top;
     grid-area: paragraph;
   }
 
+  .cover {
+
+  }
+
+  .cover__overlay {
+    gap: 32px;
+  }
+
+  .cover__overlay:hover {
+    background-color: rgba(42, 44, 47, .8);
+  }
+
+  .cover__title {
+    margin: 0 104px;
+    font-size: 72px;
+    line-height: 1.056;
+
+
+  }
+
+  .cover__subtitle {
+    margin: 0 204px;
+    font-size: 18px;
+    line-height: 1.22;
+  }
+
+  .footer {
+    padding: 86px 26px 24px;
+    flex-direction: row;
+  }
+
+  .footer__link {
+    margin-right: 18px;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 1.125;
+  }
+
+
+  .footer__link:last-of-type {
+    margin-right: 69px;
+    margin-bottom: 0;
+  }
+
+  .footer__link:hover {
+    opacity: 80%;
+  }
+
+  .footer__copyright {
+    margin: 0;
+    line-height: 1.142;
+  }
 
 }

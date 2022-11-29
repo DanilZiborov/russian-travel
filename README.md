@@ -6,4 +6,4 @@
 
 В будущем планируется доработать адаптивную часть, чтобы сайт лучше смотрелся на широких мониторах FullHD+
 
-Ссылка на GitHub Pages: 
+Ссылка на GitHub Pages: https://danilziborov.github.io/russian-travel/

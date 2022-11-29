@@ -1,0 +1,16 @@
+.lead {
+  box-sizing: border-box;
+  padding-bottom: 64px;
+}
+
+@media (min-width: 768px) {
+  .lead {
+    padding-bottom: 88px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lead {
+    padding-bottom: 92px;
+  }
+}

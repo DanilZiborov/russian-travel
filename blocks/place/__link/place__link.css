@@ -1,0 +1,22 @@
+.place__link {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 16px 32px;
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  vertical-align: top;
+  border-bottom: 2px solid #FFFFFF;
+}
+
+@media (min-width: 768px) {
+  .place__link {
+    margin: 0;
+  }
+
+  .place__link:hover {
+    opacity: 80%;
+  }
+}
+

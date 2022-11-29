@@ -1,0 +1,22 @@
+.cover__overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  text-decoration: none;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: rgba(42, 44, 47, .3);
+}
+
+@media (min-width: 768px) {
+  .cover__overlay {
+    gap: 32px;
+  }
+
+  .cover__overlay:hover {
+    background-color: rgba(42, 44, 47, .8);
+  }
+}
+

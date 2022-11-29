@@ -1,0 +1,22 @@
+.intro {
+  box-sizing: border-box;
+  padding: 0 16px 64px;
+}
+
+@media (min-width: 768px) {
+  .intro {
+    padding: 0 24px 88px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .intro {
+    padding: 0 0 92px 48px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .intro {
+    padding: 0 0 92px 148px;
+  }
+}

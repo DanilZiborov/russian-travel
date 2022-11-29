@@ -1,0 +1,10 @@
+@media (min-width: 768px) {
+  .place__website {
+    grid-area: website;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+}
+

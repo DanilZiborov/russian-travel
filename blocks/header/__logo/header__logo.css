@@ -1,0 +1,14 @@
+.header__logo {
+  background-image: url(../../../images/header-logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 42px;
+  flex-basis: 100%;
+
+}
+
+@media (min-width: 768px) {
+  .header__logo {
+    height: 52px;
+  }
+}

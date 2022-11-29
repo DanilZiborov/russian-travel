@@ -1,0 +1,18 @@
+.lead__image {
+  display: block;
+  max-width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .lead__image {
+    box-sizing: border-box;
+    padding: 0 48px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .lead__image {
+    padding: 0 148px;
+  }
+
+}

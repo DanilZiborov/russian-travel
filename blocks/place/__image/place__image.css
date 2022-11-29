@@ -1,0 +1,13 @@
+.place__image {
+  margin-bottom: 31px;
+  display: block;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .place__image {
+    margin-bottom: 0;
+    display: block;
+    grid-area: image;
+  }
+}

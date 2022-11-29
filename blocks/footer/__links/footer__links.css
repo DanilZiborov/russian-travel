@@ -1,0 +1,10 @@
+.footer__links {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .footer__links {
+    flex-direction: row;
+  }
+}

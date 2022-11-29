@@ -1,3 +1,8 @@
+/* Шрифты */
+
+@import url(../fonts/font.css);
+
+
 /* Нормализация стилей */
 
 @import url(../vendor/normalize.css);
@@ -6,6 +11,7 @@
 /* Корневой элемент */
 
 @import url(../blocks/page/page.css);
+@import url(../blocks/root/root.css);
 
 
 /* Header */
@@ -27,6 +33,7 @@
 
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list/_light/intro__list_light.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
 
@@ -42,6 +49,7 @@
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__paragraphs/place__paragraphs.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__website/place__website.css);
@@ -61,5 +69,3 @@
 @import url(../blocks/footer/__links/footer__links.css);
 
 /* Шрифт */
-
-@import url(../fonts/font.css);

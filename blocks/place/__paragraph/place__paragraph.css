@@ -1,36 +1,8 @@
-.place__paragraph {
-  margin: 0 16px 0;
-  font-size: 16px;
-  line-height: 1.625;
-  font-weight: 400;
-  vertical-align: top;
-}
 
-.place__paragraph p {
+.place__paragraph {
   margin: 0 0 25px;
 }
 
-.place__paragraph p:last-of-type {
+.place__paragraph:last-of-type {
   margin-bottom: 0;
-}
-
-@media (min-width: 768px) {
-  .place__paragraph {
-    margin: 0;
-    grid-area: paragraph;
-  }
-}
-
-@media (min-width: 1024px) {
-  .place__paragraph {
-    font-size: 18px;
-    line-height: 1.611;
-    padding-bottom: 11px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .place__paragraph {
-    padding-bottom: 11px;
-  }
 }

@@ -12,6 +12,7 @@
 
 @media (min-width: 768px) {
   .place__link {
+    transition: opacity .2s linear;
     margin: 0;
   }
 

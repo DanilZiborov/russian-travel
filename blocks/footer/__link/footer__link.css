@@ -18,6 +18,7 @@
     margin-bottom: 0;
     font-size: 16px;
     line-height: 1.125;
+    transition: opacity .2s linear;
   }
 
   .footer__link:last-of-type {

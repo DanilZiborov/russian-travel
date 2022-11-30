@@ -8,6 +8,7 @@
 @media (min-width: 768px) {
   .cover__overlay {
     padding: 115px 0;
+    transition: background-color .3s ease-in-out;
   }
 
   .cover__overlay:hover {

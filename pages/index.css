@@ -1,11 +1,11 @@
-/* Шрифты */
-
-@import url(../fonts/font.css);
-
-
 /* Нормализация стилей */
 
 @import url(../vendor/normalize.css);
+
+
+/* Шрифты */
+
+@import url(../fonts/font.css);
 
 
 /* Корневой элемент */
@@ -17,13 +17,15 @@
 /* Header */
 
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__lang-link/_underlined/header__lang-link_underlined.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 @import url(../blocks/header/__logo/header__logo.css);
 
 /* Lead */
 
 @import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__figure/lead__figure.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__title/lead__title.css);
@@ -67,5 +69,3 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__links/footer__links.css);
-
-/* Шрифт */

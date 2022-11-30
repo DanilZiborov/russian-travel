@@ -8,12 +8,20 @@
   color: #FFFFFF;
 }
 
+.footer__link:last-of-type {
+  margin-bottom: 48px;
+}
+
 @media (min-width: 768px) {
   .footer__link {
     margin-right: 18px;
     margin-bottom: 0;
     font-size: 16px;
     line-height: 1.125;
+  }
+
+  .footer__link:last-of-type {
+    margin-bottom: 0;
   }
 
   .footer__link:hover {

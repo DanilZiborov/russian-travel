@@ -2,13 +2,14 @@
   background-image: url(../../../images/header-logo.svg);
   background-repeat: no-repeat;
   background-size: contain;
+  width: 142px;
   height: 42px;
-  flex-basis: 100%;
 
 }
 
 @media (min-width: 768px) {
   .header__logo {
+    width: 176px;
     height: 52px;
   }
 }

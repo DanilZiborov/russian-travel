@@ -15,6 +15,7 @@
 
 @media (min-width: 1024px) {
   .lead__caption {
+    font-size: 12px;
     margin: 8px 0 0 48px;
   }
 }
